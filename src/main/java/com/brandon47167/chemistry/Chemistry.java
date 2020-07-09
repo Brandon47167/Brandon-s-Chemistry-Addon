@@ -14,8 +14,9 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-@Mod.EventBusSubscriber(modid = Chemistry.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+
 @Mod("chemistry")
+@Mod.EventBusSubscriber(modid = Chemistry.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Chemistry
 {
 
@@ -38,7 +39,7 @@ public class Chemistry
     public static final ItemGroup TAB = new ItemGroup("nonmetals"){
         @Override
         public ItemStack createIcon(){
-            return new ItemStack(RegistryHandler.sulfur.get());
+            return new ItemStack(RegistryHandler.Neon_Block_Item.get());
         }
     };
 
