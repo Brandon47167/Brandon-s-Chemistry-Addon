@@ -4,6 +4,7 @@ package com.brandon47167.chemistry.util;
 import com.brandon47167.chemistry.Chemistry;
 
 import com.brandon47167.chemistry.blocks.BlockItemBase;
+import com.brandon47167.chemistry.blocks.CarbonBlock;
 import com.brandon47167.chemistry.blocks.NeonBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -27,8 +28,9 @@ public class RegistryHandler {
 
     // Blocks
     public static final RegistryObject<Block>  Neon_Block = BLOCKS.register("neon_block", NeonBlock:: new);
-
+    public static final RegistryObject<Block>  Carbon_Block = BLOCKS.register("carbon_block", CarbonBlock:: new);
     // Block Items
     public static final RegistryObject<Item> Neon_Block_Item = ITEMS.register("neon_block", () -> new BlockItemBase(Neon_Block.get()));
+    public static final RegistryObject<Item> Carbon_Block_Item = ITEMS.register("carbon_block", () -> new BlockItemBase(Carbon_Block.get()));
 
 }
