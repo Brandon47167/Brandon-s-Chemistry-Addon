@@ -2,5 +2,6 @@
   "itemGroup.nonmetals": "Non-Metals",
   "block.chemistry.neon_block": "Neon Block",
   "block.chemistry.carbon_block": "Carbon Block",
-  "item.chemistry.sulfur": "Sulfur"
+  "item.chemistry.sulfur": "Sulfur",
+  "item.chemistry.carbon": "Carbon"
 }

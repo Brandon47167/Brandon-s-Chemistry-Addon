@@ -42,5 +42,11 @@ public class Chemistry
             return new ItemStack(RegistryHandler.Neon_Block_Item.get());
         }
     };
+    public static final ItemGroup TAB2 = new ItemGroup("metalloids"){
+        @Override
+        public ItemStack createIcon(){
+            return new ItemStack(RegistryHandler.Neon_Block_Item.get());
+        }
+    };
 
 }

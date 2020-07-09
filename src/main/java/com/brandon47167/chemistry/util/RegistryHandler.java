@@ -25,6 +25,7 @@ public class RegistryHandler {
 
     // Items
     public static final RegistryObject<Item>  sulfur = ITEMS.register( "sulfur", ItemBase::new);
+    public static final RegistryObject<Item>  carbon = ITEMS.register( "carbon", ItemBase::new);
 
     // Blocks
     public static final RegistryObject<Block>  Neon_Block = BLOCKS.register("neon_block", NeonBlock:: new);
