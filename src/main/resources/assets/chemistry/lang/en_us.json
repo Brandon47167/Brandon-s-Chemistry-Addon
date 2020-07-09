@@ -1,7 +1,12 @@
 {
   "itemGroup.nonmetals": "Non-Metals",
+  "itemGroup.metalloids": "Metalloids",
   "block.chemistry.neon_block": "Neon Block",
   "block.chemistry.carbon_block": "Carbon Block",
   "item.chemistry.sulfur": "Sulfur",
+  "block.chemistry.boron_block": "Boron Block",
+  "block.chemistry.silicon_block": "Silicon Block",
+  "block.chemistry.arsenic_block": "Arsenic Block",
+  "block.chemistry.germanium_block": "Germanium Block",
   "item.chemistry.carbon": "Carbon"
 }
