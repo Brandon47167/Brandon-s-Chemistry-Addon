@@ -8,5 +8,8 @@
   "block.chemistry.silicon_block": "Silicon Block",
   "block.chemistry.arsenic_block": "Arsenic Block",
   "block.chemistry.germanium_block": "Germanium Block",
+  "block.chemistry.antimony_block": "Antimony Block",
+  "block.chemistry.polonium_block": "Polonium Block",
+  "block.chemistry.tellurium_block": "Tellurium Block",
   "item.chemistry.carbon": "Carbon"
 }

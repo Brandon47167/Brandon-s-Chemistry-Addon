@@ -41,12 +41,11 @@ public class RegistryHandler {
     // Block Items
     public static final RegistryObject<Item> Neon_Block_Item = ITEMS.register("neon_block", () -> new BlockItemBase(Neon_Block.get()));
     public static final RegistryObject<Item> Carbon_Block_Item = ITEMS.register("carbon_block", () -> new BlockItemBase(Carbon_Block.get()));
-
     public static final RegistryObject<Item> Silicon_Block_Item = ITEMS.register("silicon_block", () -> new BlockItemBase2(Silicon_Block.get()));
     public static final RegistryObject<Item> Germanium_Block_Item = ITEMS.register("germanium_block", () -> new BlockItemBase2(Germanium_Block.get()));
     public static final RegistryObject<Item> Boron_Block_Item = ITEMS.register("boron_block", () -> new BlockItemBase2(Boron_Block.get()));
     public static final RegistryObject<Item> Arsenic_Block_Item = ITEMS.register("arsenic_block", () -> new BlockItemBase2(Arsenic_Block.get()));
     public static final RegistryObject<Item> Antimony_Block_Item = ITEMS.register("antimony_block", () -> new BlockItemBase2(Antimony_Block.get()));
     public static final RegistryObject<Item> Tellurium_Block_Item = ITEMS.register("tellurium_block", () -> new BlockItemBase2(Tellurium_Block.get()));
-    public static final RegistryObject<Item> Polonium_Block_Item = ITEMS.register("boron_block", () -> new BlockItemBase2(Polonium_Block.get()));
+    public static final RegistryObject<Item> Polonium_Block_Item = ITEMS.register("polonium_block", () -> new BlockItemBase2(Polonium_Block.get()));
 }
