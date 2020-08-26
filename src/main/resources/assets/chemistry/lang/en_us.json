@@ -11,5 +11,11 @@
   "block.chemistry.antimony_block": "Antimony Block",
   "block.chemistry.polonium_block": "Polonium Block",
   "block.chemistry.tellurium_block": "Tellurium Block",
+  "block.chemistry.hydrogen_block": "Hydrogen Block",
+  "block.chemistry.helium_block": "Helium Block",
+  "block.chemistry.nitrogen_block": "Nitrogen Block",
+  "block.chemistry.oxygen_block": "Oxygen Block",
+  "block.chemistry.fluorine_block": "Fluorine Block",
+  "block.chemistry.phosphorus_block": "Phosphorus Block",
   "item.chemistry.carbon": "Carbon"
 }

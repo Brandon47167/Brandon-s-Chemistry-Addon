@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "chemistry:block/phosphorus_block" }
+  }
+}

@@ -54,6 +54,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> Helium_Block_Item = ITEMS.register("helium_block", () -> new BlockItemBase(Helium_Block.get()));
     public static final RegistryObject<Item> Nitrogen_Block_Item = ITEMS.register("nitrogen_block", () -> new BlockItemBase(Nitrogen_Block.get()));
     public static final RegistryObject<Item> Oxygen_Block_Item = ITEMS.register("oxygen_block", () -> new BlockItemBase(Oxygen_Block.get()));
+    public static final RegistryObject<Item> Fluorine_Block_Item = ITEMS.register("fluorine_block", () -> new BlockItemBase(Fluorine_Block.get()));
+    public static final RegistryObject<Item> Phosphorus_Block_Item = ITEMS.register("phosphorus_block", () -> new BlockItemBase(Phosphorus_Block.get()));
 
 
 
