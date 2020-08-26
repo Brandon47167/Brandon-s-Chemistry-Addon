@@ -1,4 +1,4 @@
-package com.brandon47167.chemistry.blocks;
+package com.brandon47167.chemistry.blocks.metaloids;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
