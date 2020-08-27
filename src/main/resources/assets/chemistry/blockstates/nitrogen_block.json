@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "chemistry:block/hydrogen_block" }
+    "": { "model": "chemistry:block/nitrogen_block" }
   }
 }
