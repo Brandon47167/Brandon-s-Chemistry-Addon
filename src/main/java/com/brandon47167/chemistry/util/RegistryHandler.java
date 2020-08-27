@@ -5,8 +5,7 @@ import com.brandon47167.chemistry.Chemistry;
 
 import com.brandon47167.chemistry.blocks.*;
 import com.brandon47167.chemistry.blocks.metaloids.*;
-import com.brandon47167.chemistry.blocks.nonmetals.CarbonBlock;
-import com.brandon47167.chemistry.blocks.nonmetals.NeonBlock;
+import com.brandon47167.chemistry.blocks.nonmetals.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -31,12 +30,13 @@ public class RegistryHandler {
     // Blocks
     public static final RegistryObject<Block> Neon_Block = BLOCKS.register("neon_block", NeonBlock::new);
     public static final RegistryObject<Block> Carbon_Block = BLOCKS.register("carbon_block", CarbonBlock::new);
-    public static final RegistryObject<Block> Hydrogen_Block = BLOCKS.register("hydrogen_block", NeonBlock::new);
-    public static final RegistryObject<Block> Helium_Block = BLOCKS.register("helium_block", CarbonBlock::new);
-    public static final RegistryObject<Block> Nitrogen_Block = BLOCKS.register("nitrogen_block", NeonBlock::new);
-    public static final RegistryObject<Block> Oxygen_Block = BLOCKS.register("oxygen_block", CarbonBlock::new);
-    public static final RegistryObject<Block> Fluorine_Block = BLOCKS.register("fluorine_block", NeonBlock::new);
-    public static final RegistryObject<Block> Phosphorus_Block = BLOCKS.register("phosphorus_block", CarbonBlock::new);
+    public static final RegistryObject<Block> Hydrogen_Block = BLOCKS.register("hydrogen_block", HydrogenBlock::new);
+    public static final RegistryObject<Block> Helium_Block = BLOCKS.register("helium_block", HeliumBlock::new);
+    public static final RegistryObject<Block> Nitrogen_Block = BLOCKS.register("nitrogen_block", NitrogenBlock::new);
+    public static final RegistryObject<Block> Oxygen_Block = BLOCKS.register("oxygen_block", OxygenBlock::new);
+    public static final RegistryObject<Block> Fluorine_Block = BLOCKS.register("fluorine_block", FluorineBlock::new);
+    public static final RegistryObject<Block> Phosphorus_Block = BLOCKS.register("phosphorus_block", PhosphorusBlock::new);
+
 
 
     public static final RegistryObject<Block> Silicon_Block = BLOCKS.register("silicon_block", SiliconBlock::new);
